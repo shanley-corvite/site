@@ -1,0 +1,126 @@
+/*---------------------------------MOBILE SCREEN---------------------------------*/
+@media screen and (min-width:400) {
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    color: #402a20;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f9f9f9;
+}
+
+nav li {
+    font-family: 'Raleway', sans-serif; 
+    text-align: center;
+    padding: 15px;
+  
+  }
+  
+  nav a {
+    color: #381d2a;
+    text-decoration: none; 
+    text-transform: lowercase;
+  }
+  
+  nav a:hover, nav a:focus {
+    border-bottom: 3px solid #402a20;
+  }
+  
+  nav {
+    background-color: #edece9; 
+    color: #402a20;
+    width: 100%; 
+    align-items: center;
+    padding: 0px;
+  }
+  
+  .nav_links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav_links #current-page {
+    border-bottom: 3px solid #402a20;
+  }
+  
+  h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  h2{
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align:center;
+  }
+  
+  p, li{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 100px; /* change for each media screen */
+    padding-right: 100px; /* change for each media screen */
+  }
+  
+  ul{
+    list-style-type: none;
+  }
+  
+  img{
+    max-width: 400px;
+    max-height: 400px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  a{
+      color: rgb(38, 122, 179);
+    }
+  
+  .navigation a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #402a20;
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .next{
+    float:right;
+  }
+  .previous{
+    float:left;
+  }
+  
+  .navigation a:hover{
+    background-color: #402a20;
+    color: #f9f9f9;
+  }
+
+
+
+
+
+} /*closing media screen*/
