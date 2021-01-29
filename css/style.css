@@ -155,9 +155,10 @@ a{
     max-width: 900px; 
     margin: auto;
     grid-gap: 10px;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  
+
   .projectscontainer img{
     max-width: 800px;
     max-height: 800px;
@@ -171,9 +172,9 @@ a{
     padding: 0px;
   }
   
+  
   .projectscontainer > div  {
     background-color: #f9f9f9;
-    padding: 10px 0px;
   }
   
   .projectsintro{
@@ -193,37 +194,131 @@ a{
     grid-column: 2/end;
     position: relative;
   }
-  
+
   .project-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    opacity: 0;
-    transition: .5s ease;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  .p1i:hover .project-image, .p2i:hover .project-image, .p3i:hover .project-image, .p4i:hover .project-image, .p5i:hover .project-image, .p6i:hover .project-image{
-    opacity: .25;
-  }
-  
-  .p1i:hover .project-overlay, .p2i:hover .project-overlay, .p3i:hover .project-overlay, .p4i:hover .project-overlay, .p5i:hover .project-overlay, .p6i:hover .project-overlay{
     opacity: 1;
   }
   
-  .project-text a{
+  .project-text{
     color: #402a20;
-    font-size: 20px;
-    position: absolute;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    background: #f9f9f9;
+    font-size: 10px;
     text-align: center;
+    padding-top: 8px;
     font-family: 'Poppins', sans-serif;
   }
 /*-----------ROBOTICS.HTML-----------*/
 
+.documentationsintro{
+  padding-bottom: 20px;
+}
 
+.roboticscontainer img{
+  padding-bottom:0px;
+  padding-top:0px;
+  display: block;
+  width: 100%;
+  height: auto;
+  backface-visibility: hidden;
+  box-shadow: 10px 10px 5px grey;
+  padding: 0px;
+}
+
+.seaperch-image, .MATE-image{
+  position: relative;
+  overflow: hidden;
+  max-width: 800px;
+  max-height: 800px;
+  opacity: 1;
+}
+
+.seaperch-image img, .MATE-image img{
+  box-shadow: 0px 0px 0px;
+}
+
+.competition-overlay {
+  opacity: 1;
+}
+
+.competition-text h2{
+  color: #402a20;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  max-width: 100%;
+  padding-bottom: 0px;
+}
+
+.roboticsintro{
+  max-width: 1500px; 
+}
+
+.roboticscontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #f9f9f9;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+  max-width: 900px; 
+  margin: auto;
+  grid-gap: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.roboticscontainer > div  {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.roboticsintro, .seaperch-image, .seaperch-description, .MATE-image, .MATE-description, .documentationsintro{
+  grid-column:1/end;
+}
+
+.doc1p, .doc2p, .doc3p{
+  grid-column:1/2;
+}
+
+.doc1i, .doc2i, .doc3i{
+  grid-column: 2/end;
+  position: relative;
+}
+
+.document-overlay {
+  opacity: 1;
+}
+
+.document-text{
+  color: #402a20;
+  background: #f9f9f9;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 8px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/*-----------CONTACT.HTML-----------*/
+
+.outro{
+  background: #000000;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  height: 800px;
+  max-width: auto;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../imgs/contact.jpg");
+  background-repeat: no-repeat;
+  opacity: .75;
+}
+.outro-text{
+  text-align: center;
+  color: #f9f9f9;
+  padding-top: 300px;
+}
 } /*closing media screen*/
