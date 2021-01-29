@@ -118,4 +118,107 @@ a{
   color: #f9f9f9;
 }
 
+/*------HOME.HTML------*/
+
+.researchbox, .hsroboticsbox, .projectsbox{
+    position:relative;
+    padding-bottom: 45px;
+  }
+.researchbox img, .hsroboticsbox img, .projectsbox img{
+    max-width: 300px;
+    opacity: 1;
+}
+
+.overlay {
+    opacity: 1;
+  }
+  
+.text {
+    color: #402a20;
+    background: #f9f9f9;
+    font-size: 30px;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+/*
+.intro {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.introphrase p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.researchbox, .hsroboticsbox, .projectsbox {
+  position:relative;
+  width: 75%;
+  padding-bottom: 45px;
+}
+
+.homecontainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color:#f9f9f9;
+  padding: 20px;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+  max-width: 850px; 
+  margin: auto;
+}
+
+.homecontainer > div  {
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+
+.home-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f9f9f9;
+}
+
+.researchbox:hover .overlay, .hsroboticsbox:hover .overlay, .projectsbox:hover .overlay{
+  opacity: 1;
+}
+
+.text {
+  color: #402a20;
+  font-size: 20px;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+*/
+
 } /*closing media screen*/
