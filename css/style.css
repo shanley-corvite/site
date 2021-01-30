@@ -80,7 +80,7 @@ ul{
 }
 
 img{
-  max-width: 200px;
+  max-width: 250px;
   max-height: 400px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -145,7 +145,7 @@ a{
 /*-----------RESEARCH.HTML-----------*/
 
 .researchcontainer img{
-  max-width: 200px;
+  max-width: 250px;
 }
 
 /*-----------PROJECTS.HTML-----------*/
@@ -238,7 +238,7 @@ a{
 
 .seaperch-image img, .MATE-image img{
   box-shadow: 0px 0px 0px;
-  max-width:200px;
+  max-width:250px;
 }
 
 .competition-overlay {
