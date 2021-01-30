@@ -121,8 +121,6 @@ a{
 
 /*-----------HOME.HTML-----------*/
 
-
-
 .researchbox, .hsroboticsbox, .projectsbox{
     position:relative;
     padding-bottom: 45px;
@@ -147,7 +145,7 @@ a{
 /*-----------RESEARCH.HTML-----------*/
 
 .researchcontainer img{
-  max-width: 250px;
+  max-width: 200px;
 }
 
 /*-----------PROJECTS.HTML-----------*/
@@ -240,6 +238,7 @@ a{
 
 .seaperch-image img, .MATE-image img{
   box-shadow: 0px 0px 0px;
+  max-width:200px;
 }
 
 .competition-overlay {
