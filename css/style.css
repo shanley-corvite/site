@@ -1,6 +1,13 @@
 /*---------------------------------MOBILE SCREEN---------------------------------*/
 @media only screen and (max-width:600px) {
 
+
+  /* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+
 html {
   scroll-behavior: smooth;
 }
