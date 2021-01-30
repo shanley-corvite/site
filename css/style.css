@@ -123,8 +123,8 @@ a{
 
 .researchbox, .hsroboticsbox, .projectsbox{
     position:relative;
-    padding-bottom: 10px;
   }
+  
 .researchbox img, .hsroboticsbox img, .projectsbox img{
     max-width: 200px;
     opacity: 1;
@@ -137,7 +137,7 @@ a{
 .text {
     color: #402a20;
     background: #f9f9f9;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
   }
