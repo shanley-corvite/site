@@ -2,7 +2,6 @@
 @media only screen and (max-width:600px) {
 
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -82,7 +81,7 @@ ul{
 }
 
 img{
-  max-width: 400px;
+  max-width: 300px;
   max-height: 400px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
