@@ -121,9 +121,7 @@ a{
 
 /*-----------HOME.HTML-----------*/
 
-.researchcontainer img{
-  max-width: 800px;
-}
+
 
 .researchbox, .hsroboticsbox, .projectsbox{
     position:relative;
@@ -148,8 +146,8 @@ a{
 
 /*-----------RESEARCH.HTML-----------*/
 
-.ltst-image img, .i3-image img{
-  max-width: 200px;
+.researchcontainer img{
+  max-width: 700px;
 }
 
 /*-----------PROJECTS.HTML-----------*/
