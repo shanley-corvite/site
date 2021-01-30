@@ -98,7 +98,7 @@ a{
 
 .navigation a{
   text-decoration: none;
-  font-size: 20px;
+  font-size: 10px;
   color: #402a20;
   display: inline-block;
   padding: 8px 16px;
@@ -141,6 +141,10 @@ a{
     text-align: center;
     font-family: 'Poppins', sans-serif;
   }
+
+.hsroboticsbox {
+  padding-bottom: 50px;
+}
 
 /*-----------RESEARCH.HTML-----------*/
 
@@ -425,7 +429,7 @@ a{
   
   a{
       color: rgb(38, 122, 179);
-    }
+  }
   
   .navigation a{
     text-decoration: none;
