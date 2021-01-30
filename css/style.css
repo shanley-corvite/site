@@ -80,7 +80,7 @@ ul{
 }
 
 img{
-  max-width: 300px;
+  max-width: 200px;
   max-height: 400px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -147,6 +147,10 @@ a{
   }
 
 /*-----------RESEARCH.HTML-----------*/
+
+.ltst-image img, .i3-image img{
+  max-width: 200px;
+}
 
 /*-----------PROJECTS.HTML-----------*/
 .projectscontainer {
