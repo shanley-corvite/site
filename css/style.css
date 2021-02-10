@@ -326,7 +326,7 @@ a{
   opacity: .75;
 }
 .outro-text{
-  text-align: center;
+  text-align: absolute;
   color: #f9f9f9;
   padding-top: 300px;
 }
