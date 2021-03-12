@@ -189,16 +189,16 @@ a{
     grid-column: 1/end;
   }
   
-  .p1, .p2, .p3, .p4, .p5, .p6, .p7{
+  .p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8{
     grid-column: 1/2;
   }
   
-  .p1 p, .p2 p, .p3 p, .p4 p, .p5 p, .p6 p, .p7 p{
+  .p1 p, .p2 p, .p3 p, .p4 p, .p5 p, .p6 p, .p7 p, .p8 p{
     padding: 0px;
     font-size: 15px;
   }
   
-  .p1i, .p2i, .p3i, .p4i, .p5i, .p6i, .p7i{
+  .p1i, .p2i, .p3i, .p4i, .p5i, .p6i, .p7i, .p8i{
     grid-column: 2/end;
     position: relative;
   }
@@ -766,16 +766,16 @@ a{
     grid-column: 1/end;
   }
   
-  .p1, .p2, .p3, .p4, .p5, .p6{
+  .p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8{
     grid-column: 1/2;
   }
   
-  .p1 p, .p2 p, .p3 p, .p4 p, .p5 p, .p6 p{
+  .p1 p, .p2 p, .p3 p, .p4 p, .p5 p, .p6 p, .p7 p, .p8 p{
     padding: 0px;
     font-size: 25px;
   }
   
-  .p1i, .p2i, .p3i, .p4i, .p5i, .p6i{
+  .p1i, .p2i, .p3i, .p4i, .p5i, .p6i, .p7i, .p8i{
     grid-column: 2/end;
     position: relative;
   }
@@ -791,11 +791,11 @@ a{
     text-align: center;
   }
   
-  .p1i:hover .project-image, .p2i:hover .project-image, .p3i:hover .project-image, .p4i:hover .project-image, .p5i:hover .project-image, .p6i:hover .project-image{
+  .p1i:hover .project-image, .p2i:hover .project-image, .p3i:hover .project-image, .p4i:hover .project-image, .p5i:hover .project-image, .p6i:hover .project-image, .p7i:hover .project-image, .p8i:hover .project-image{
     opacity: .25;
   }
   
-  .p1i:hover .project-overlay, .p2i:hover .project-overlay, .p3i:hover .project-overlay, .p4i:hover .project-overlay, .p5i:hover .project-overlay, .p6i:hover .project-overlay{
+  .p1i:hover .project-overlay, .p2i:hover .project-overlay, .p3i:hover .project-overlay, .p4i:hover .project-overlay, .p5i:hover .project-overlay, .p6i:hover .project-overlay, .p7i:hover .project-overlay, .p8i:hover .project-overlay{
     opacity: 1;
   }
   
