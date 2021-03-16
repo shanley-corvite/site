@@ -121,11 +121,11 @@ a{
 
 /*-----------HOME.HTML-----------*/
 
-.researchbox, .hsroboticsbox, .projectsbox{
+.researchbox, .hsroboticsbox, .designsbox{
     position:relative;
   }
   
-.researchbox img, .hsroboticsbox img, .projectsbox img{
+.researchbox img, .hsroboticsbox img, .designsbox img{
     max-width: 200px;
     opacity: 1;
 }
@@ -152,8 +152,8 @@ a{
   max-width: 250px;
 }
 
-/*-----------PROJECTS.HTML-----------*/
-.projectscontainer {
+/*-----------DESIGN.HTML-----------*/
+.designscontainer {
     display: grid;
     grid-template-columns: auto auto;
     background-color: #f9f9f9;
@@ -167,7 +167,7 @@ a{
     padding-right: 20px;
   }
 
-  .projectscontainer img{
+  .designscontainer img{
     max-width: 800px;
     max-height: 800px;
     opacity: 1;
@@ -181,11 +181,11 @@ a{
   }
   
   
-  .projectscontainer > div  {
+  .designscontainer > div  {
     background-color: #f9f9f9;
   }
   
-  .projectsintro{
+  .designsintro{
     grid-column: 1/end;
   }
   
@@ -203,11 +203,11 @@ a{
     position: relative;
   }
 
-  .project-overlay {
+  .design-overlay {
     opacity: 1;
   }
   
-  .project-text{
+  .design-text{
     color: #402a20;
     background: #f9f9f9;
     font-size: 10px;
@@ -472,7 +472,7 @@ a{
       padding-right: 0px;
   }
   
-  .researchbox, .hsroboticsbox, .projectsbox {
+  .researchbox, .hsroboticsbox, .designsbox {
     position:relative;
     width: 75%;
     padding-bottom: 45px;
@@ -514,7 +514,7 @@ a{
     background-color: #f9f9f9;
   }
   
-  .researchbox:hover .overlay, .hsroboticsbox:hover .overlay, .projectsbox:hover .overlay{
+  .researchbox:hover .overlay, .hsroboticsbox:hover .overlay, .designsbox:hover .overlay{
     opacity: 1;
   }
   
@@ -730,8 +730,8 @@ a{
     font-family: 'Poppins', sans-serif;
   }
   
-  /*----------PROJECTS.HTML----------*/
-  .projectscontainer {
+  /*----------DESIGN.HTML----------*/
+  .designscontainer {
     display: grid;
     grid-template-columns: auto;
     background-color: #f9f9f9;
@@ -744,7 +744,7 @@ a{
     padding: 5px;
   }
   
-  .projectscontainer img{
+  .designscontainer img{
     max-width: 800px;
     max-height: 800px;
     opacity: 1;
@@ -757,12 +757,12 @@ a{
     padding: 0px;
   }
   
-  .projectscontainer > div  {
+  .designscontainer > div  {
     background-color: #f9f9f9;
     padding: 10px 0px;
   }
   
-  .projectsintro{
+  .designsintro{
     grid-column: 1/end;
   }
   
@@ -780,7 +780,7 @@ a{
     position: relative;
   }
   
-  .project-overlay {
+  .design-overlay {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -791,15 +791,15 @@ a{
     text-align: center;
   }
   
-  .p1i:hover .project-image, .p2i:hover .project-image, .p3i:hover .project-image, .p4i:hover .project-image, .p5i:hover .project-image, .p6i:hover .project-image, .p7i:hover .project-image, .p8i:hover .project-image{
+  .p1i:hover .design-image, .p2i:hover .design-image, .p3i:hover .design-image, .p4i:hover .design-image, .p5i:hover .design-image, .p6i:hover .design-image, .p7i:hover .design-image, .p8i:hover .design-image{
     opacity: .25;
   }
   
-  .p1i:hover .project-overlay, .p2i:hover .project-overlay, .p3i:hover .project-overlay, .p4i:hover .project-overlay, .p5i:hover .project-overlay, .p6i:hover .project-overlay, .p7i:hover .project-overlay, .p8i:hover .project-overlay{
+  .p1i:hover .design-overlay, .p2i:hover .design-overlay, .p3i:hover .design-overlay, .p4i:hover .design-overlay, .p5i:hover .design-overlay, .p6i:hover .design-overlay, .p7i:hover .design-overlay, .p8i:hover .design-overlay{
     opacity: 1;
   }
   
-  .project-text a{
+  .design-text a{
     color: #402a20;
     font-size: 20px;
     position: absolute;
